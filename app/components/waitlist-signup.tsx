@@ -65,7 +65,7 @@ export function WaitlistSignup() {
                   <Avatar initials="AS" index={1} />
                   <Avatar initials="MK" index={2} />
                 </div>
-                <p className="text-white font-semibold">100+ people on the helped</p>
+                <p className="text-white font-semibold">100+ people on the helped </p>
               </div>
             </motion.div>
           )}
