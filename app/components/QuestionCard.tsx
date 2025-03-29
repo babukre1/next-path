@@ -1,25 +1,29 @@
 import { motion } from "framer-motion"
 
-interface Option {
-  value: number
-  label: string
-  icon: string
-}
-
-const options: Option[] = [
-  { value: 1, label: "Hate it", icon: "💢" },
-  { value: 2, label: "Dislike it", icon: "👎" },
-  { value: 3, label: "Neutral", icon: "😐" },
-  { value: 4, label: "Like it", icon: "👍" },
-  { value: 5, label: "Love it", icon: "❤️" },
-]
-
 interface QuestionCardProps {
-  question: string
-  onAnswer: (value: number) => void
+  question: string;
+  answers?: string[];
+  onAnswer: (value: number) => void;
 }
 
-export function QuestionCard({ question, onAnswer }: QuestionCardProps) {
+export function QuestionCard({
+  question,
+  answers,
+  onAnswer,
+}: QuestionCardProps) {
+  // If no answers provided, use default options
+  const options = answers?.map((answer, index) => ({
+    value: index + 1,
+    label: answer,
+    icon: "✨", // Default icon for dynamic answers
+  })) || [
+    { value: 1, label: "Hate it", icon: "💢" },
+    { value: 2, label: "Dislike it", icon: "👎" },
+    { value: 3, label: "Neutral", icon: "😐" },
+    { value: 4, label: "Like it", icon: "👍" },
+    { value: 5, label: "Love it", icon: "❤️" },
+  ];
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -45,5 +49,5 @@ export function QuestionCard({ question, onAnswer }: QuestionCardProps) {
         ))}
       </div>
     </motion.div>
-  )
+  );
 } 

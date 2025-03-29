@@ -55,14 +55,13 @@ export async function getStudentResult(formData) {
         }
       }
     });
-    console.log('Subjects:', subjects);
-    // Extract percentage
+    // // Extract percentage
     const percentageText = $('#edit4_Celceliska').text().trim();
     const percentage = parseFloat(percentageText.replace('%', ''));
-    console.log('Percentage:', percentage);
-    // Extract final status
+    // // Extract final status
     const status = $('#edit4_Natiijada').text().trim();
-    console.log('Final Status:', status);
+
+    	
     return {
       rollNumber,
       studentName,
