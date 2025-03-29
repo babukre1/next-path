@@ -110,8 +110,7 @@ export async function gemeni(examResult?: any, usersAnswer?: any) {
     });
   }
 
-  console.log("history:", history);
-  console.log();
+
   try {
     const chatSession = model.startChat({
       generationConfig,
