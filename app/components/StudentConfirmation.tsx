@@ -1,16 +1,18 @@
 import { motion } from "framer-motion"
+import { Loader2 } from "lucide-react";
 
 interface Subject {
-  subject: string
-  mark: number
+  subject: string;
+  mark: number;
 }
 
 interface StudentConfirmationProps {
-  studentName: string
-  rollNumber: string
-  subjects: Subject[]
-  onConfirm: () => void
-  onCancel: () => void
+  studentName: string;
+  rollNumber: string;
+  subjects: Subject[];
+  onConfirm: () => void;
+  onCancel: () => void;
+  isLoading?: boolean;
 }
 
 export function StudentConfirmation({
@@ -19,6 +21,7 @@ export function StudentConfirmation({
   subjects,
   onConfirm,
   onCancel,
+  isLoading = false,
 }: StudentConfirmationProps) {
   return (
     <motion.div
@@ -27,12 +30,10 @@ export function StudentConfirmation({
       exit={{ opacity: 0, scale: 0.95 }}
       className="w-full max-w-2xl mx-auto bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-xl"
     >
-      
       <div className="space-y-6">
-
-          <div>
-            <h3 className="text-xl font-semibold text-white">{studentName}</h3>
-            <p className="text-gray-400">Roll Number: {rollNumber}</p>
+        <div>
+          <h3 className="text-xl font-semibold text-white">{studentName}</h3>
+          <p className="text-gray-400">Roll Number: {rollNumber}</p>
         </div>
 
         <div className="mt-6">
@@ -44,7 +45,9 @@ export function StudentConfirmation({
                 className="bg-white/5 rounded-lg p-3 border border-white/10"
               >
                 <div className="text-sm text-gray-400">{subject.subject}</div>
-                <div className="text-lg font-semibold text-white">{subject.mark}%</div>
+                <div className="text-lg font-semibold text-white">
+                  {subject.mark}%
+                </div>
               </div>
             ))}
           </div>
@@ -52,23 +55,39 @@ export function StudentConfirmation({
 
         <div className="flex space-x-4 mt-8">
           <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
+            whileHover={{ scale: isLoading ? 1 : 1.02 }}
+            whileTap={{ scale: isLoading ? 1 : 0.98 }}
             onClick={onConfirm}
-            className="flex-1 py-3 px-6 rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold hover:opacity-90 transition-opacity"
+            disabled={isLoading}
+            className={`flex-1 py-3 px-6 rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold transition-all duration-300 relative overflow-hidden group ${
+              isLoading ? "opacity-75 cursor-not-allowed" : "hover:opacity-90"
+            }`}
           >
-            Yes, this is me
+            {isLoading ? (
+              <>
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 animate-pulse" />
+                <div className="relative flex items-center justify-center space-x-2">
+                  <Loader2 className="w-5 h-5 animate-spin" />
+                  <span>Analyzing your results...</span>
+                </div>
+              </>
+            ) : (
+              "Yes, this is me"
+            )}
           </motion.button>
           <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
+            whileHover={{ scale: isLoading ? 1 : 1.02 }}
+            whileTap={{ scale: isLoading ? 1 : 0.98 }}
             onClick={onCancel}
-            className="flex-1 py-3 px-6 rounded-xl bg-white/5 text-white font-semibold hover:bg-white/10 transition-colors border border-white/10"
+            disabled={isLoading}
+            className={`flex-1 py-3 px-6 rounded-xl bg-white/5 text-white font-semibold transition-all duration-300 ${
+              isLoading ? "opacity-50 cursor-not-allowed" : "hover:bg-white/10"
+            } border border-white/10`}
           >
             This is not me
           </motion.button>
         </div>
       </div>
     </motion.div>
-  )
+  );
 } 

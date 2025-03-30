@@ -116,6 +116,12 @@ export async function gemeni(examResult?: any, usersAnswer?: any) {
       generationConfig,
       history: history,
     });
+    console.log("Full History Array:", JSON.stringify(history, null, 2));
+    console.log("History Length:", history.length);
+    history.forEach((entry, index) => {
+      console.log(`Entry ${index}:`, JSON.stringify(entry, null, 2));
+    });
+    
     const response = await chatSession.sendMessage(usersAnswer ?? systemPrompt);
     const responseText = response.response.text();
     return responseText;

@@ -15,7 +15,7 @@ export function QuestionCard({
   const options = answers?.map((answer, index) => ({
     value: index + 1,
     label: answer,
-    icon: "✨", // Default icon for dynamic answers
+    icon: "", // Default icon for dynamic answers
   })) || [
     { value: 1, label: "Hate it", icon: "💢" },
     { value: 2, label: "Dislike it", icon: "👎" },

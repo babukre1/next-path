@@ -56,6 +56,7 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
   const [showQuestions, setShowQuestions] = useState(false);
   const [aiResponse, setAiResponse] = useState<AIResponse | null>(null);
   const [showRecommendation, setShowRecommendation] = useState(false);
+  const [isAnalyzing, setIsAnalyzing] = useState(false);
 
   const cleanAIResponse = (response: string): string => {
     // Remove markdown code block markers if present
@@ -84,13 +85,18 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
 
     try {
       const data = await getStudentResult(formData);
+      if (!data) {
+        throw new Error("No data received from server");
+      }
       setResult(data);
       setShowForm(false);
       onStateChange("confirmation");
     } catch (err) {
       console.error("Error:", err);
       setError(
-        "Failed to fetch results. Please check the roll number and try again."
+        err instanceof Error
+          ? err.message
+          : "Failed to fetch results. Please check the roll number and try again."
       );
     } finally {
       setLoading(false);
@@ -98,10 +104,17 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
   };
 
   const handleConfirmStudent = async () => {
+    if (!result?.subjects) {
+      setError("No student data available");
+      return;
+    }
+
+    setIsAnalyzing(true);
+    setError("");
+
     try {
-      const response = await gemeni(result?.subjects, undefined);
+      const response = await gemeni(result.subjects, undefined);
       const cleanedResponse = cleanAIResponse(response);
-      console.log("Cleaned response:", cleanedResponse);
       const parsedResponse = JSON.parse(cleanedResponse);
       const normalizedResponse = normalizeAIResponse(parsedResponse);
       setAiResponse(normalizedResponse);
@@ -109,7 +122,9 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
       onStateChange("questions");
     } catch (err) {
       console.error("Error getting AI response:", err);
-      setError("Failed to get AI questions. Please try again.");
+      setError("Failed to analyze your results. Please try again.");
+    } finally {
+      setIsAnalyzing(false);
     }
   };
 
@@ -194,6 +209,7 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
             subjects={result.subjects}
             onConfirm={handleConfirmStudent}
             onCancel={handleCancelStudent}
+            isLoading={isAnalyzing}
           />
         )}
 

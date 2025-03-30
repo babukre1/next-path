@@ -1,30 +1,49 @@
 "use server";
 import * as cheerio from 'cheerio';
-export async function getStudentResult(formData) {
-  const rollNumber = formData.get('rollNumber');
+
+interface StudentResult {
+  rollNumber: string;
+  studentName: string;
+  subjects: Array<{ subject: string; mark: number }>;
+  totalPercentage: number;
+  finalStatus: string;
+}
+
+export async function getStudentResult(
+  formData: FormData
+): Promise<StudentResult> {
+  const rollNumber = formData.get("rollNumber")?.toString();
+
   if (!rollNumber) {
-    throw new Error('Roll Number is required');
+    throw new Error("Roll Number is required");
   }
 
   try {
     const res = await fetch(
       `https://soneb.gov.so/natiijada_ardayga_list.php?q=(RollNumber~equals~${rollNumber})`
-      
     );
+
     if (!res.ok) {
-      throw new Error('Failed to fetch results');
+      throw new Error(
+        `Failed to fetch results: ${res.status} ${res.statusText}`
+      );
     }
+
     const html = await res.text();
     const $ = cheerio.load(html);
+
     // Extract student name
-    const studentName = $('#edit4_StudentName').text().trim();
-    console.log('Student Name:', studentName);
-    console.log(',,,,,,,,,,,,,,,,,,,,,,,,,,,,,');
+    const studentName = $("#edit4_StudentName").text().trim();
+    if (!studentName) {
+      throw new Error("Student not found");
+    }
+
     // Extract subjects and marks
-    const subjects = [];
-    const subjectRows = $('table.bs-fieldsgrid tr');
+    const subjects: Array<{ subject: string; mark: number }> = [];
+    const subjectRows = $("table.bs-fieldsgrid tr");
+
     subjectRows.each((index, element) => {
-      const tds = $(element).find('td');
+      const tds = $(element).find("td");
       if (tds.length >= 4) {
         const subject1Td = $(tds[0]);
         const mark1Td = $(tds[1]);
@@ -44,7 +63,6 @@ export async function getStudentResult(formData) {
           subjects.push({ subject: subject2, mark: mark2 });
         }
       } else if (tds.length >= 2 && subjects.length < 10) {
-        // Handle cases where there might be a final row with fewer than 4 TDs
         const subjectTd = $(tds[0]);
         const markTd = $(tds[1]);
         const subject = subjectTd.text().trim();
@@ -55,13 +73,24 @@ export async function getStudentResult(formData) {
         }
       }
     });
-    // // Extract percentage
-    const percentageText = $('#edit4_Celceliska').text().trim();
-    const percentage = parseFloat(percentageText.replace('%', ''));
-    // // Extract final status
-    const status = $('#edit4_Natiijada').text().trim();
 
-    	
+    if (subjects.length === 0) {
+      throw new Error("No subjects found for this student");
+    }
+
+    // Extract percentage
+    const percentageText = $("#edit4_Celceliska").text().trim();
+    const percentage = parseFloat(percentageText.replace("%", ""));
+    if (isNaN(percentage)) {
+      throw new Error("Invalid percentage data");
+    }
+
+    // Extract final status
+    const status = $("#edit4_Natiijada").text().trim();
+    if (!status) {
+      throw new Error("No status found for this student");
+    }
+
     return {
       rollNumber,
       studentName,
@@ -70,7 +99,11 @@ export async function getStudentResult(formData) {
       finalStatus: status,
     };
   } catch (error) {
-    console.error('Error fetching or parsing data:', error);
-    throw error; // Re-throw the error to be handled by the caller
+    if (error instanceof Error) {
+      throw new Error(`Failed to fetch student results: ${error.message}`);
+    }
+    throw new Error(
+      "An unexpected error occurred while fetching student results"
+    );
   }
 }
