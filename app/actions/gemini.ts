@@ -84,7 +84,8 @@ For questions, use this structure:
   "answers": ["Option 1", "Option 2", "Option 3", "Option 4", "Option 5"]
 }
 
-only return jsone nothing else ok formated data only nothing else
+only return json nothing else ok formated data only nothing else json 
+-if every thing happen dont return some thing that does'nt json please if you dont return json my app would crush ok  
 `;
 const genAi = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 const model = genAi.getGenerativeModel({ model: "gemini-2.0-flash" });
@@ -96,11 +97,15 @@ const generationConfig = {
   responseMimeType: "text/plain",
 };
 export async function gemeni(examResult?: any, usersAnswer?: any) {
+  if (!process.env.GEMINI_API_KEY) {
+    throw new Error("GEMINI_API_KEY is not set in environment variables");
+  }
+
   if (history.length <= 0) {
     history = [
       {
         role: "user",
-        parts: [{ text: `${systemPrompt + examResult} \n` }],
+        parts: [{ text: `${systemPrompt + 'this is the score of the user during his high school '+ examResult} \n` }],
       },
     ];
   } else {
@@ -110,24 +115,43 @@ export async function gemeni(examResult?: any, usersAnswer?: any) {
     });
   }
 
-
   try {
     const chatSession = model.startChat({
       generationConfig,
       history: history,
     });
-    console.log("Full History Array:", JSON.stringify(history, null, 2));
-    console.log("History Length:", history.length);
-    history.forEach((entry, index) => {
-      console.log(`Entry ${index}:`, JSON.stringify(entry, null, 2));
-    });
-    
+
     const response = await chatSession.sendMessage(usersAnswer ?? systemPrompt);
+
+    if (!response || !response.response) {
+      throw new Error("Invalid response from Gemini API");
+    }
+
     const responseText = response.response.text();
+
+    if (!responseText) {
+      throw new Error("Empty response from Gemini API");
+    }
+
+    // Try to parse the response as JSON to validate format
+    // try {
+    //   console.log(responseText);
+    //   JSON.parse(responseText);
+    // } catch (e) {
+    //   console.log(e)
+    //   throw new Error("Response is not in valid JSON format");
+    // }
+    console.log(responseText)
+
     return responseText;
-  } catch (e) {
-    console.log("........................");
-    console.log("handles the errer:", e);
-    // Handle the error as needed
+  } catch (e: any) {
+    console.error("Gemini API Error:", e);
+    throw new Error(`Failed to get AI response: ${e.message}`);
   }
+}
+
+
+export  const clearMemory=async()=>{
+  history = [];
+  console.log("Memory cleared");	
 }

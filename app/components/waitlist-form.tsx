@@ -8,7 +8,7 @@ import { getStudentResult } from '../actions/fetchRollNumber'
 import { StudentConfirmation } from './StudentConfirmation'
 import { QuestionCard } from './QuestionCard'
 import { motion, AnimatePresence } from 'framer-motion'
-import { gemeni } from "../actions/gemini";
+import { clearMemory, gemeni } from "../actions/gemini";
 
 interface StudentResult {
   rollNumber: string;
@@ -57,6 +57,7 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
   const [aiResponse, setAiResponse] = useState<AIResponse | null>(null);
   const [showRecommendation, setShowRecommendation] = useState(false);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [isProcessingAnswer, setIsProcessingAnswer] = useState(false);
 
   const cleanAIResponse = (response: string): string => {
     // Remove markdown code block markers if present
@@ -135,6 +136,7 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
   };
 
   const handleAnswer = async (value: number) => {
+    setIsProcessingAnswer(true);
     try {
       const response = await gemeni(undefined, `option ${value}`);
       const cleanedResponse = cleanAIResponse(response);
@@ -153,6 +155,8 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
     } catch (err) {
       console.error("Error getting AI response:", err);
       setError("Failed to process answer. Please try again.");
+    } finally {
+      setIsProcessingAnswer(false);
     }
   };
 
@@ -219,6 +223,7 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
             question={aiResponse.question || ""}
             answers={aiResponse.answers}
             onAnswer={handleAnswer}
+            isLoading={isProcessingAnswer}
           />
         )}
 
@@ -388,6 +393,7 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
               <div className="flex justify-center pt-4">
                 <Button
                   onClick={() => {
+                    clearMemory();
                     setShowRecommendation(false);
                     setShowForm(true);
                     setResult(null);

@@ -1,15 +1,18 @@
 import { motion } from "framer-motion"
+import { Loader2 } from "lucide-react";
 
 interface QuestionCardProps {
   question: string;
   answers?: string[];
   onAnswer: (value: number) => void;
+  isLoading?: boolean;
 }
 
 export function QuestionCard({
   question,
   answers,
   onAnswer,
+  isLoading = false,
 }: QuestionCardProps) {
   // If no answers provided, use default options
   const options = answers?.map((answer, index) => ({
@@ -29,8 +32,17 @@ export function QuestionCard({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
-      className="w-full max-w-2xl mx-auto bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-xl"
+      className="w-full max-w-2xl mx-auto bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-xl relative"
     >
+      {isLoading && (
+        <div className="absolute inset-0 bg-black/50 backdrop-blur-sm rounded-2xl flex items-center justify-center z-10">
+          <div className="flex flex-col items-center space-y-4">
+            <Loader2 className="w-8 h-8 animate-spin text-blue-500" />
+            <p className="text-white font-medium">Processing your answer...</p>
+          </div>
+        </div>
+      )}
+
       <h3 className="text-2xl font-bold text-white mb-8 text-center">
         {question}
       </h3>
@@ -38,10 +50,13 @@ export function QuestionCard({
         {options.map((option) => (
           <motion.button
             key={option.value}
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
+            whileHover={{ scale: isLoading ? 1 : 1.02 }}
+            whileTap={{ scale: isLoading ? 1 : 0.98 }}
             onClick={() => onAnswer(option.value)}
-            className="flex items-center justify-between w-full p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-colors border border-white/10 text-white"
+            disabled={isLoading}
+            className={`flex items-center justify-between w-full p-4 rounded-xl bg-white/5 transition-colors border border-white/10 text-white ${
+              isLoading ? "opacity-50 cursor-not-allowed" : "hover:bg-white/10"
+            }`}
           >
             <span className="text-lg font-medium">{option.label}</span>
             <span className="text-2xl">{option.icon}</span>
