@@ -10,6 +10,7 @@ import { Avatar } from "./avatar"
 import { SocialIcon } from "./social-icon"
 import WaitlistForm from "./waitlist-form"
 import { motion, AnimatePresence } from "framer-motion"
+import { GitHubStars } from "./githupStars"
 
 type FormState = 'initial' | 'confirmation' | 'questions'
 
@@ -59,14 +60,16 @@ export function WaitlistSignup() {
               exit={{ opacity: 0, y: -20 }}
               className="mt-8"
             >
-              <div className="flex items-center justify-center">
+              {/* <div className="flex items-center justify-center">
                 <div className="flex -space-x-2 mr-4">
                   <Avatar initials="JD" index={0} />
                   <Avatar initials="AS" index={1} />
                   <Avatar initials="MK" index={2} />
                 </div>
                 <p className="text-white font-semibold">100+ people on the helped </p>
-              </div>
+              </div> */}
+
+              <GitHubStars/>
             </motion.div>
           )}
         </AnimatePresence>
