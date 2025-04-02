@@ -1,0 +1,1594 @@
+<!doctype html>
+<html  >
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Natiijada Ardayda Dugsiga Sare</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="/">
+		<link REL="stylesheet" href="styles/default.css?41619" type="text/css">
+	
+	
+	<link REL="stylesheet" href="styles\bootstrap\custom\natiijada_dugsiga_list/style.css?41619&1286_1601538756" type="text/css">
+	
+	<link REL="stylesheet" href="styles/font-awesome/css/font-awesome.min.css?41619" type="text/css">
+	
+	<link REL="stylesheet" href="styles/pages/natiijada_ardayga_sare.css?1286_1601538756" type="text/css">
+	
+	<link REL="stylesheet" href="fonts/fonts.css?41619" type="text/css">
+	
+	<link REL="stylesheet" href="styles/bundle.css?41619" type="text/css">
+	
+			
+	</head>
+	<body class=" function-list"  >
+	<script type="text/javascript" src="include/loadfirst.js?41619"></script><script type="text/javascript" src="include/lang/Somali.js?41619"></script><div id="search_suggest" class="search_suggest"></div>
+		<style>
+.alert-warning {
+	display:none !important;
+}
+	#top{
+		border-bottom:5px solid #00bbf9;
+		text-align: center;
+		background: #2c3e50;
+}
+#top img{
+	width:65%
+}
+#top u{color:#fff;}
+h4{
+		margin:0;
+}
+@media only screen and (max-width: 767px) {
+	#top img{
+		width:100%;
+		padding:5px;
+	}
+	h4{
+		font-size:12px;
+	}
+}
+</style>
+<header id="top">
+	<img src="images/MOE-banner.png">
+	<h4><strong><u>XAFIISKA IMTIXAANAADKA IYO SHAHAADOOYINKA </u></strong></h4><br/>
+</header>
+
+
+
+
+		<style>
+			
+		</style>
+		<div class="r-topbar-page">
+			<div data-menu-width="full" 
+				 
+				class="r-topheader" 
+				data-resize-name="topbar"
+				data-body-align="center"
+			>
+								
+<nav class="navbar navbar-default" 
+	data-location="supertop" id="form_supertop_1" data-makeup="topbar"  data-pageid="1" >
+			 
+							 
+				<span data-cellId="supertop_c1" data-pageid="1" class="r-align-left navbar-header" data-itemid="logo" >
+				
+	<A data-itemtype="logo" data-itemid="logo"  data-pageid="1" class="navbar-brand" href="bogga_hore_list.php?page=list1" data-pageid="1" >
+		<b>SONEB</b>-MoECHE
+	</A>
+
+				<button data-pageid="1" type="button" class="navbar-toggle collapsed" data-runner-toggle="collapse" data-target="[data-mobile-controlled]">	
+					<span class="sr-only">Toggle navigation</span>	
+					<span class="icon-bar"></span>					
+				</button>				
+			</span>
+		 
+				<span data-cellId="supertop_c1" data-pageid="1" class="r-align-left navbar-collapse" data-itemtype="menu" data-itemid="menu"  data-pageid="1">
+				
+<ul data-itemtype="menu" data-itemid="menu"  data-pageid="1"	class="r-menu nav navbar-nav" 
+	data-menulevel="1"
+>
+
+
+<li class="
+	 
+	">
+<a  id="itemlink6" itemtitle="Bogga Hore" href="bogga_hore_list.php" title="Bogga Hore" data-menu-link data-menu-h data-menu-top >
+	
+	<span class="r-menu-link  "> 
+		<span class="r-menu-title">
+		<span class="menu-icon glyphicon glyphicon-home"></span>  Bogga Hore
+		</span>
+		
+	</span>
+	</a>
+
+</li>
+
+<li class="
+	 
+	active">
+<a  id="itemlink7" itemtitle="Natiijada Ardayga" href="natiijada_ardayga_list.php" title="Natiijada Ardayga" data-menu-link data-menu-h data-menu-top >
+	
+	<span class="r-menu-link  "> 
+		<span class="r-menu-title">
+		<span class="menu-icon glyphicon glyphicon-user"></span>  Natiijada Ardayga
+		</span>
+		
+	</span>
+	</a>
+
+</li>
+
+</ul>
+
+			</span>
+							 
+							 
+				<span class="navbar-form r-align-right navbar-collapse" data-cellId="supertop_c2" data-pageid="1" data-itemid="list_options"  data-topcell-item-type="list_options" >
+				<span data-itemtype="list_options" data-itemid="list_options"  data-pageid="1" data-small data-button-item>
+	<span class="dropdown ">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+										<span class="glyphicon glyphicon-cog"></span>
+												<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+							
+	<li data-itemtype="show_search_panel" data-itemid="show_search_panel"  data-pageid="1" data-small >
+				<a  id="showOptPanel1"  title="" >
+				
+		Show search panel		
+		</a>
+	</li>
+
+							
+	<li data-itemtype="hide_search_panel" data-itemid="hide_search_panel" data-hidden data-pageid="1" data-small >
+				<a  id="hideOptPanel1"  title="" >
+				
+		Hide search panel		
+		</a>
+	</li>
+
+					</ul>
+	</span>
+</span>
+			</span>
+		 
+				<span class="navbar-form r-align-right navbar-collapse" data-cellId="supertop_c2" data-pageid="1" data-itemid="loginform_login"  data-topcell-item-type="loginform_login" >
+				
+<span data-itemtype="loginform_login" data-itemid="loginform_login"  data-pageid="1" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" href="#" id="loginButton1" >
+							Gal			</a>
+</span>
+
+			</span>
+		 
+				<span class="navbar-form r-align-right navbar-collapse" data-cellId="supertop_c2" data-pageid="1" data-itemid="username_button"  data-topcell-item-type="username_button" >
+				
+			</span>
+								</nav>
+
+					
+			</div>	
+			<div data-body-align="center"  data-body-width="standard" class="r-body" data-resize-top="topbar" >
+				<div class="r-top">
+								
+					</div>
+				<div class="r-content">
+										<div class="r-left"  data-hidden >
+										
+						</div>
+										<div class="r-data-block" data-body-width="standard" >
+						
+											<div class="r-above">
+					
+<div class="r-form" data-location="above-grid" id="form_above-grid_1" data-makeup="topbar" data-hidden data-pageid="1" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c5" data-pageid="1" data-page="natiijada_ardayga_sare"	
+	class=" r-ori-vert			col-md-12
+	
+">
+		
+					
+	</div>					</div>
+			 
+				<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c" data-pageid="1"	
+	class="r-align-center r-ori-vert			col-md-12
+	
+">
+		 
+		<!-- Begin Search panel content -->
+<div class="searchOptions panel panel-primary searchPanelContainer "  data-itemtype="search_panel" data-itemid="search_panel" data-hidden data-pageid="1"			data-horizontal
+	 >
+	<div class="panel-body controlsBlock"  >
+
+
+																		
+
+
+		<div class="form-group srchPanelRow rnr-basic-search-field" id="filter_5_RollNumber" >
+			<label>Rool Lambar</label>
+
+			
+								<span class="rnr-searchtype" style="display: none;"><span id="searchType_5_RollNumber" ><select class="form-control"  id="srchOpt_5_RollNumber" name="srchOpt_5_RollNumber" size=1 ><option value="Contains" >Contains</option><option value="Equals" selected data-default-option="true">Equals</option><option value="Starts with" >Starts with</option><option value="More than" >More than</option><option value="Less than" >Less than</option><option value="Between" >Between</option><option value="Empty" >Empty</option><option value="NOT Empty" >Is not empty</option></select></span></span>
+								<span class="rnr-searchcontrol"><span id="edit5_RollNumber_0" class="bs-ctrlspan "><input id="value_RollNumber_5"  class="form-control" type="text" autocomplete="off" name="value_RollNumber_5"  maxlength=15 value="22101196"></span></span>
+						</div>
+		
+		
+
+	</div>
+
+	<div class="panel-footer bottomSearchButt" >
+		<button class="btn btn-primary btn-sm" id="searchButton1" id="searchButtTop1" title="Raadi">Raadi</button>
+
+				<button class="btn btn-default btn-sm"  id="showAll1">Reset</button>
+	</div>
+</div>
+<!-- End Search panel content -->
+		</div>					</div>
+			 
+				<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="1"	
+	class=" r-ori-vert			col-md-6
+	
+">
+			</div>			 
+				<div 
+	data-cellId="above-grid_c2" data-pageid="1"	
+	class="r-align-right r-ori-vert			col-md-6
+	
+">
+			</div>					</div>
+			</div>		
+
+	</div>
+<div class="r-grid">
+	
+					
+<div  data-location="grid" id="form_grid_1" data-makeup="topbar"  data-pageid="1" >
+
+	<div class="r-grid-columns "  id="gridRow4" >
+	
+		
+		<div class="panel panel-default" data-record-id="4">
+									
+			
+			<div class="panel-heading">
+						
+				<table data-location="grid" class="header-table">
+					<tbody>
+				 
+												
+						<tr >
+						 
+							
+						 
+							
+												</tr>
+									 
+												
+						<tr >
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_top" data-pageid="1" data-record-id="4"	
+	>
+
+	
+	</th>
+	
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="RollNumber"
+	
+	data-cellId="grid_cell_top3" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field14"  data-pageid="1" data-record-id="4" data-field="RollNumber" data-fieldname="RollNumber" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>Rool Lambar</span>
+			</span>
+	</span>
+
+
+	
+	</th>
+	
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert		 	"
+
+			data-field="RollNumber"
+	
+	data-cellId="grid_cell_top2" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="simple_grid_field1"  data-pageid="1" data-record-id="4" data-field="RollNumber" data-fieldname="RollNumber" data-default-width >
+<span id="edit4_RollNumber" >22101196</span>
+</span>
+	
+	</th>
+	
+						 
+							
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_label41" data-pageid="1" data-record-id="4"	
+	>
+
+	
+	</th>
+	
+												</tr>
+									 
+												
+						<tr >
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert			"
+
+	
+	data-cellId="grid_cell_top17" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	
+	</th>
+	
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert		 	"
+
+			data-field="StudentName"
+	
+	data-cellId="grid_cell_top20" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field16"  data-pageid="1" data-record-id="4" data-field="StudentName" data-fieldname="StudentName" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>M. Ardayga</span>
+			</span>
+	</span>
+
+
+	
+	</th>
+	
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="StudentName"
+	
+	data-cellId="grid_cell_top18" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="simple_grid_field2"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="StudentName" data-fieldname="StudentName" data-default-width >
+<span id="edit4_StudentName" >mahad abdi abdille farah</span>
+</span>
+	
+	</th>
+	
+						 
+							
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_label42" data-pageid="1" data-record-id="4"	
+	>
+
+	
+	</th>
+	
+												</tr>
+									 
+												
+						<tr >
+						 
+							
+	<th
+	
+	data-hidden colspan="1" rowspan="0"
+	data-record-id="4"
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_top41" data-pageid="1" data-record-id="4"	
+	>
+
+	
+	</th>
+	
+						 
+							
+	<th
+	
+	data-hidden colspan="1" rowspan="0"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="MotherName"
+	
+	data-cellId="grid_cell_top42" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field17" data-hidden data-pageid="1" data-record-id="4" data-field="MotherName" data-fieldname="MotherName" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>M. Hooyada</span>
+			</span>
+	</span>
+
+
+	
+	</th>
+	
+						 
+							
+	<th
+	
+	data-hidden colspan="1" rowspan="0"
+	data-record-id="4"
+	class="
+		 r-ori-vert		 	"
+
+			data-field="MotherName"
+	
+	data-cellId="grid_cell_top44" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="simple_grid_field3" data-hidden data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="MotherName" data-fieldname="MotherName" data-default-width >
+<span id="edit4_MotherName" >fartun mohamud aden</span>
+</span>
+	
+	</th>
+	
+						 
+							
+						 
+							
+	<th
+	
+	data-hidden colspan="1" rowspan="0"
+	data-record-id="4"
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_label43" data-pageid="1" data-record-id="4"	
+	>
+
+	
+	</th>
+	
+												</tr>
+									 
+												
+						<tr >
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_top46" data-pageid="1" data-record-id="4"	
+	>
+
+	
+	</th>
+	
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert		 	"
+
+			data-field="SchoolName"
+	
+	data-cellId="grid_cell_top47" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span 
+	data-itemtype="grid_field_label" data-itemid="grid_field_label"  data-pageid="1" data-record-id="4" data-field="SchoolName" data-fieldname="SchoolName" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>Dugsiga</span>
+			</span>
+	</span>
+
+
+	
+	</th>
+	
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert		 	"
+
+			data-field="SchoolName"
+	
+	data-cellId="grid_cell_top48" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="SchoolName" data-fieldname="SchoolName" data-default-width >
+<span id="edit4_SchoolName" >Mudug</span>
+</span>
+	
+	</th>
+	
+						 
+							
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_top50" data-pageid="1" data-record-id="4"	
+	>
+
+	
+	</th>
+	
+												</tr>
+									 
+												
+						<tr >
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_top24" data-pageid="1" data-record-id="4"	
+	>
+
+	
+	</th>
+	
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Celceliska"
+	
+	data-cellId="grid_cell_top27" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field28"  data-pageid="1" data-record-id="4" data-field="Celceliska" data-fieldname="Celceliska" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>Celceliska</span>
+			</span>
+	</span>
+
+
+	
+	</th>
+	
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert		 	"
+
+			data-field="Celceliska"
+	
+	data-cellId="grid_cell_top31" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="simple_grid_field13"  data-pageid="1" data-record-id="4" data-field="Celceliska" data-fieldname="Celceliska" data-default-width >
+<span id="edit4_Celceliska" ><span style='color: #28429d'>B+</span></span>
+</span>
+	
+	</th>
+	
+						 
+							
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_label44" data-pageid="1" data-record-id="4"	
+	>
+
+	
+	</th>
+	
+												</tr>
+									 
+												
+						<tr >
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_top22" data-pageid="1" data-record-id="4"	
+	>
+
+	
+	</th>
+	
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Natiijada"
+	
+	data-cellId="grid_cell_top23" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field29"  data-pageid="1" data-record-id="4" data-field="Natiijada" data-fieldname="Natiijada" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>Go'aan</span>
+			</span>
+	</span>
+
+
+	
+	</th>
+	
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert		 	"
+
+			data-field="Natiijada"
+	
+	data-cellId="grid_cell_top25" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="simple_grid_field15"  data-pageid="1" data-record-id="4" data-field="Natiijada" data-fieldname="Natiijada" data-default-width >
+<span id="edit4_Natiijada" ><span style='color: #28429d'>Gudbay</span></span>
+</span>
+	
+	</th>
+	
+						 
+							
+						 
+							
+	<th
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		 r-ori-vert			"
+
+	
+	data-cellId="grid_cell_label45" data-pageid="1" data-record-id="4"	
+	>
+
+	
+	</th>
+	
+												</tr>
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+												
+						<tr >
+						 
+							
+						 
+							
+												</tr>
+									 
+											
+					</tbody>
+				</table>
+
+					</div>
+		
+												
+			<div class="panel-body">					
+						
+				<table data-location="grid" class="bs-fieldsgrid table">
+					<tbody>
+				 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+												
+						<tr class="">
+						 
+							
+						 
+							
+						 
+							
+												</tr>
+									 
+												
+						<tr class="">
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Subject1"
+	
+	data-cellId="grid_cell_label35" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field1"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Subject1" data-fieldname="Subject1" data-default-width >
+<span id="edit4_Subject1" >B. Islaamka</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Marks1"
+	
+	data-cellId="grid_cell_label38" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field2"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Marks1" data-fieldname="Marks1" data-default-width >
+<span id="edit4_Marks1" >B-</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Subject6"
+	
+	data-cellId="grid_cell_label36" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field11"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Subject6" data-fieldname="Subject6" data-default-width >
+<span id="edit4_Subject6" >Juquraafi</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Marks6"
+	
+	data-cellId="grid_cell_label37" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field12"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Marks6" data-fieldname="Marks6" data-default-width >
+<span id="edit4_Marks6" >A-</span>
+</span>
+	
+	</td>
+	
+												</tr>
+									 
+												
+						<tr class="">
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Subject2"
+	
+	data-cellId="grid_cell_label50" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field3"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Subject2" data-fieldname="Subject2" data-default-width >
+<span id="edit4_Subject2" >Carabi</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Marks2"
+	
+	data-cellId="grid_cell_label51" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field4"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Marks2" data-fieldname="Marks2" data-default-width >
+<span id="edit4_Marks2" >A-</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Subject7"
+	
+	data-cellId="grid_cell_label74" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field13"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Subject7" data-fieldname="Subject7" data-default-width >
+<span id="edit4_Subject7" >Bayoloji</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Marks7"
+	
+	data-cellId="grid_cell_label79" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field14"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Marks7" data-fieldname="Marks7" data-default-width >
+<span id="edit4_Marks7" >B+</span>
+</span>
+	
+	</td>
+	
+												</tr>
+									 
+												
+						<tr class="">
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Subject3"
+	
+	data-cellId="grid_cell_label49" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field7"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Subject3" data-fieldname="Subject3" data-default-width >
+<span id="edit4_Subject3" >Xisaab</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Marks3"
+	
+	data-cellId="grid_cell_label54" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field8"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Marks3" data-fieldname="Marks3" data-default-width >
+<span id="edit4_Marks3" >B</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Subject8"
+	
+	data-cellId="grid_cell_label69" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field15"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Subject8" data-fieldname="Subject8" data-default-width >
+<span id="edit4_Subject8" >Ingiriis</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Marks8"
+	
+	data-cellId="grid_cell_label71" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field16"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Marks8" data-fieldname="Marks8" data-default-width >
+<span id="edit4_Marks8" >B</span>
+</span>
+	
+	</td>
+	
+												</tr>
+									 
+												
+						<tr class="">
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Subject4"
+	
+	data-cellId="grid_cell_label48" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field5"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Subject4" data-fieldname="Subject4" data-default-width >
+<span id="edit4_Subject4" >Taariikh</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Marks4"
+	
+	data-cellId="grid_cell_label55" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field6"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Marks4" data-fieldname="Marks4" data-default-width >
+<span id="edit4_Marks4" >B</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Subject9"
+	
+	data-cellId="grid_cell_label64" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field17"  data-pageid="1" data-record-id="4" data-field="Subject9" data-fieldname="Subject9" data-default-width >
+<span id="edit4_Subject9" >Kimistari</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Marks9"
+	
+	data-cellId="grid_cell_label66" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field19"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Marks9" data-fieldname="Marks9" data-default-width >
+<span id="edit4_Marks9" >A-</span>
+</span>
+	
+	</td>
+	
+												</tr>
+									 
+												
+						<tr class="">
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Subject5"
+	
+	data-cellId="grid_cell_label75" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field10"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Subject5" data-fieldname="Subject5" data-default-width >
+<span id="edit4_Subject5" >Fisikis</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Marks5"
+	
+	data-cellId="grid_cell_label76" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field9"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Marks5" data-fieldname="Marks5" data-default-width >
+<span id="edit4_Marks5" >B-</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Subject10"
+	
+	data-cellId="grid_cell_label78" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field18"  data-pageid="1" data-record-id="4" data-field="Subject10" data-fieldname="Subject10" data-default-width >
+<span id="edit4_Subject10" >Soomaali</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	colspan="1" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Marks10"
+	
+	data-cellId="grid_cell_label80" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field20"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Marks10" data-fieldname="Marks10" data-default-width >
+<span id="edit4_Marks10" >B</span>
+</span>
+	
+	</td>
+	
+												</tr>
+									 
+												
+						<tr class="">
+						 
+							
+	<td
+	
+	data-hidden colspan="1" rowspan="0"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Subject11"
+	
+	data-cellId="grid_cell_label81" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field21" data-hidden data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Subject11" data-fieldname="Subject11" data-default-width >
+<span id="edit4_Subject11" ></span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	data-hidden colspan="1" rowspan="0"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Marks11"
+	
+	data-cellId="grid_cell_label82" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field22" data-hidden data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Marks11" data-fieldname="Marks11" data-default-width >
+<span id="edit4_Marks11" >0</span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	data-hidden colspan="1" rowspan="0"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Subject12"
+	
+	data-cellId="grid_cell_label84" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field23" data-hidden data-pageid="1" data-record-id="4" data-field="Subject12" data-fieldname="Subject12" data-default-width >
+<span id="edit4_Subject12" ></span>
+</span>
+	
+	</td>
+	
+						 
+							
+	<td
+	
+	data-hidden colspan="1" rowspan="0"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="Marks12"
+	
+	data-cellId="grid_cell_label86" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field24" data-hidden data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-field="Marks12" data-fieldname="Marks12" data-default-width >
+<span id="edit4_Marks12" >0</span>
+</span>
+	
+	</td>
+	
+												</tr>
+									 
+												
+						<tr class="">
+						 
+							
+												</tr>
+									 
+												
+						<tr class="">
+						 
+							
+												</tr>
+									 
+												
+						<tr class="">
+						 
+							
+	<td
+	
+	colspan="4" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert		 	"
+
+			data-field="shuruudda1"
+	
+	data-cellId="grid_cell_label26" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		<span data-itemtype="text" data-itemid="text1"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-small > 
+	Shuruudaha Baasidda Imtixaanku waa:</span>
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field25"  data-pageid="1" data-record-id="4" data-field="shuruudda1" data-fieldname="shuruudda1" data-default-width >
+<span id="edit4_shuruudda1" >1- In ardaygu u fariisto ugu yaraan 7 maaddo oo kamid ah maadooyinka imtixaanka.</span>
+</span>
+	 
+		
+<span data-itemtype="grid_field" data-itemid="grid_field26"  data-pageid="1" data-record-id="4" data-field="shuruudda2" data-fieldname="shuruudda2" data-default-width >
+<span id="edit4_shuruudda2" >2- 	In celceliska 7da maado ee ugu sareysa imtixaanka ardayga aysan ka hoosayn C- (50%).</span>
+</span>
+	
+	</td>
+	
+												</tr>
+									 
+												
+						<tr class="">
+						 
+							
+	<td
+	
+	colspan="4" rowspan="1"
+	data-record-id="4"
+	class="
+		r-align-left r-ori-vert			"
+
+	
+	data-cellId="grid_cell_label25" data-pageid="1" data-record-id="4" data-page="natiijada_ardayga_sare"	
+	>
+
+	 
+		<span data-itemtype="text" data-itemid="text"  data-pageid="1" data-page="natiijada_ardayga_sare" data-record-id="4" data-small > 
+	<a href="foomka_cabashada_add.php">Haddii aad Cabasho Qabtid Riix Halkan</a></span>
+	
+	</td>
+	
+												</tr>
+									 
+									 
+											
+					</tbody>
+				</table>
+
+				
+			</div>				
+									
+		</div>
+		
+	
+	</div>
+
+<div style="clear: both;"></div>
+ 
+	
+			
+ 
+	
+			
+
+
+
+</div>			
+
+	</div>
+<div class="r-below">
+					
+<div class="r-form" data-location="below-grid" id="form_below-grid_1" data-makeup="topbar"  data-pageid="1" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c" data-pageid="1"	
+	class="r-align-left r-ori-vert			col-md-12
+	
+">
+			</div>					</div>
+			 
+				<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="1"	
+	class="r-align-left r-ori-vert			col-md-12
+	
+">
+			</div>					</div>
+			 
+				<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c4" data-pageid="1"	
+	class="r-align-left r-ori-vert			col-md-12
+	
+">
+			</div>					</div>
+			 
+				<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c3" data-pageid="1"	
+	class="r-align-center r-ori-vert			col-md-12
+	
+">
+			</div>					</div>
+			 
+				<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="1" data-page="natiijada_ardayga_sare"	
+	class="r-align-center r-ori-vert			col-md-12
+	
+">
+		 
+		<span data-itemtype="text" data-itemid="text7"  data-pageid="1" data-page="natiijada_ardayga_sare" data-small > 
+	<br><br><br><hr><p class="ql-align-center"><strong>Office Email:<strong style="color:brown">&nbsp;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3f565159507f4c50515a5d11585049114c50">[email&#160;protected]</a></strong></p></span>
+		</div>					</div>
+			</div>		
+
+	</div>
+
+
+
+
+											
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+			window.controlsMap = {"natiijada_ardayga":{"list":{"1":{"oldLayout":false,"layoutVersion":4,"layoutName":"","pageTable":"natiijada_ardayga","toolTips":[],"searchPanelActivated":true,"controls":[{"fieldName":"RollNumber","mode":2,"editFormat":"Text field","id":5,"ctrlInd":0,"hidden":false,"table":"natiijada_ardayga","skipDependencies":true}],"search":{"searchBlocks":[{"fName":"RollNumber","recId":5,"ctrlsMap":[0,1],"inflexSearchOption":null}],"allSearchFields":["RollNumber"],"allSearchFieldsLabels":{"RollNumber":"Rool Lambar"},"panelSearchFields":["RollNumber"],"googleLikeFields":["shuruudda1","shuruudda2"],"inflexSearchPanel":true,"requiredSearchFields":["RollNumber"],"isSearchRequired":true,"searchTableName":"natiijada_ardayga","shortSearchTableName":"natiijada_ardayga","submitPageType":"list","searchPanelRunByUserApi":false,"usedSrch":true},"gridRows":[{"id":4,"rowInd":0,"contextRowId":4,"isEditOwnRow":false,"canEditRecord":false,"canDeleteRecord":false,"gridLayout":2,"keyFields":["Sno"],"keys":["200125"]}],"gMaps":{"id":1,"isUseMainMaps":false,"isUseFieldsMaps":false,"isUseGoogleMap":false,"APIcode":"","mainMapIds":[],"fieldMapsIds":[],"mapsData":[],"useEmbedMapsAPI":true,"tName":"natiijada_ardayga"}}}}};
+			window.viewControlsMap = {"natiijada_ardayga":{"list":{"1":[]}}};
+			window.settings = {"tableSettings":{"natiijada_ardayga":{"proxy":{"proxy":""},"fieldSettings":{"Sno":{"list":{"strName":"Sno","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"RollNumber":{"list":{"strName":"RollNumber","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false},"search":{"strName":"RollNumber","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"StudentName":{"list":{"strName":"StudentName","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"MotherName":{"list":{"strName":"MotherName","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Gender":{"list":{"strName":"Gender","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"SchoolName":{"list":{"strName":"SchoolName","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"ExamCenter":{"list":{"strName":"ExamCenter","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"State":{"list":{"strName":"State","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Region":{"list":{"strName":"Region","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"District":{"list":{"strName":"District","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"ExamType":{"list":{"strName":"ExamType","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Subject1":{"list":{"strName":"Subject1","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Marks1":{"list":{"strName":"Marks1","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Subject2":{"list":{"strName":"Subject2","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Marks2":{"list":{"strName":"Marks2","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Subject3":{"list":{"strName":"Subject3","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Marks3":{"list":{"strName":"Marks3","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Subject4":{"list":{"strName":"Subject4","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Marks4":{"list":{"strName":"Marks4","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Subject5":{"list":{"strName":"Subject5","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Marks5":{"list":{"strName":"Marks5","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Subject6":{"list":{"strName":"Subject6","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Marks6":{"list":{"strName":"Marks6","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Subject7":{"list":{"strName":"Subject7","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Marks7":{"list":{"strName":"Marks7","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Subject8":{"list":{"strName":"Subject8","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Marks8":{"list":{"strName":"Marks8","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Subject9":{"list":{"strName":"Subject9","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Marks9":{"list":{"strName":"Marks9","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Subject10":{"list":{"strName":"Subject10","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Marks10":{"list":{"strName":"Marks10","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Subject11":{"list":{"strName":"Subject11","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Marks11":{"list":{"strName":"Marks11","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Subject12":{"list":{"strName":"Subject12","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Marks12":{"list":{"strName":"Marks12","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Celceliska":{"list":{"strName":"Celceliska","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"Natiijada":{"list":{"strName":"Natiijada","editFormat":"Text field","viewFormat":"Custom","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"AcademicYear":{"list":{"strName":"AcademicYear","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"shuruudda1":{"list":{"strName":"shuruudda1","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}},"shuruudda2":{"list":{"strName":"shuruudda2","editFormat":"Text field","mask":false,"weekdays":"[]","listPageId":"","addPageId":"","maxFileSize":false,"maxTotalFilesSize":false}}},"strCaption":"","pageMode":0,"defaultPages":{"list":"sare","print":"","search":"search"},"simpleSearchActive":false,"addToBottom":false,"totalFields":[],"scrollGridBody":false,"permissions":{"add":false,"delete":false,"edit":false,"search":true,"export":false,"import":false},"listFields":["Subject1","Subject2","Subject3","Subject4","Subject5","Subject11","shuruudda1","shuruudda2","Marks1","Marks2","Marks3","Marks4","Marks5","Marks11","RollNumber","StudentName","MotherName","SchoolName","Celceliska","Natiijada","Subject6","Subject7","Subject8","Subject9","Subject10","Subject12","Marks6","Marks7","Marks8","Marks9","Marks10","Marks12"],"listGridLayout":2,"maxPages":1,"showRows":true,"entityType":1,"hasEvents":true,"ajaxSuggest":false,"pages":{"sare":"list","search":"search"},"keyFields":["Sno"],"isUseCK":false}},"global":{"shortTNames":{"natiijada_ardayga":"natiijada_ardayga"},"webRootPath":"\/","projectRoot":"\/","ext":"php","charSet":"utf-8","curretLang":"Somali","debugMode":false,"googleMapsApiCode":"","useCookieBanner":false,"cookieBanner":"This website uses cookies to improve user experience","projectBuildKey":"1286_1601538756","wizardBuildKey":"41619","isAD":false,"isMobile":false,"mobileDeteced":false,"s508":false,"mapProvider":0,"staticMapsOnly":false,"locale":{"dateFormat":"0","langName":"en","ctryName":"US","startWeekDay":"6","dateDelimiter":"\/","is24hoursFormat":"0","leadingZero":"0","timeDelimiter":":","timePmLetter":"PM","timeAmLetter":"AM"},"showDetailedError":false,"customErrorMessage":"Waan ka xunnahay! Cillad Farsamo ayaa jirta.","resizeImagesOnClient":true,"twoFactorAuth":{"available":true,"required":false,"enable":true,"remember":true,"types":{"email":true,"totp":true},"twoFactorField":"two_factor","emailField":"email","phoneField":"\u02c2Create new\u02c3","codeField":"totp","projectName":"SONEB 2020 10.4"},"loginFormType":0,"loginTName":"users","idStartFrom":6}};
+			Runner.applyPagesData( {"1":{"proxy":[],"pageName":"sare","helperFormItems":{"formItems":{"supertop":["logo","menu","list_options","loginform_login","username_button"],"left":[],"top":[],"above-grid":["search_panel"],"below-grid":["text7"],"grid":["simple_grid_field28","simple_grid_field16","simple_grid_field17","simple_grid_field29","simple_grid_field14","simple_grid_field3","grid_field1","grid_field11","grid_field2","simple_grid_field1","simple_grid_field2","simple_grid_field15","simple_grid_field13","grid_field_label","grid_field","grid_field12","grid_field6","grid_field5","grid_field7","grid_field19","grid_field3","grid_field16","grid_field17","grid_field15","grid_field13","grid_field4","grid_field8","grid_field10","grid_field9","grid_field18","grid_field14","grid_field20","grid_field21","grid_field22","grid_field23","grid_field24","text","text1","grid_field25","grid_field26"]},"formXtTags":{"left":[],"top":[]},"itemForms":{"logo":"supertop","menu":"supertop","list_options":"supertop","loginform_login":"supertop","username_button":"supertop","search_panel":"above-grid","text7":"below-grid","simple_grid_field28":"grid","simple_grid_field16":"grid","simple_grid_field17":"grid","simple_grid_field29":"grid","simple_grid_field14":"grid","simple_grid_field3":"grid","grid_field1":"grid","grid_field11":"grid","grid_field2":"grid","simple_grid_field1":"grid","simple_grid_field2":"grid","simple_grid_field15":"grid","simple_grid_field13":"grid","grid_field_label":"grid","grid_field":"grid","grid_field12":"grid","grid_field6":"grid","grid_field5":"grid","grid_field7":"grid","grid_field19":"grid","grid_field3":"grid","grid_field16":"grid","grid_field17":"grid","grid_field15":"grid","grid_field13":"grid","grid_field4":"grid","grid_field8":"grid","grid_field10":"grid","grid_field9":"grid","grid_field18":"grid","grid_field14":"grid","grid_field20":"grid","grid_field21":"grid","grid_field22":"grid","grid_field23":"grid","grid_field24":"grid","text":"grid","text1":"grid","grid_field25":"grid","grid_field26":"grid"},"itemLocations":{"simple_grid_field28":{"location":"grid","cellId":"cell_top27"},"simple_grid_field16":{"location":"grid","cellId":"cell_top20"},"simple_grid_field17":{"location":"grid","cellId":"cell_top42"},"simple_grid_field29":{"location":"grid","cellId":"cell_top23"},"simple_grid_field14":{"location":"grid","cellId":"cell_top3"},"simple_grid_field3":{"location":"grid","cellId":"cell_top44"},"grid_field1":{"location":"grid","cellId":"cell_label35"},"grid_field11":{"location":"grid","cellId":"cell_label36"},"grid_field2":{"location":"grid","cellId":"cell_label38"},"simple_grid_field1":{"location":"grid","cellId":"cell_top2"},"simple_grid_field2":{"location":"grid","cellId":"cell_top18"},"simple_grid_field15":{"location":"grid","cellId":"cell_top25"},"simple_grid_field13":{"location":"grid","cellId":"cell_top31"},"grid_field_label":{"location":"grid","cellId":"cell_top47"},"grid_field":{"location":"grid","cellId":"cell_top48"},"grid_field12":{"location":"grid","cellId":"cell_label37"},"grid_field6":{"location":"grid","cellId":"cell_label55"},"grid_field5":{"location":"grid","cellId":"cell_label48"},"grid_field7":{"location":"grid","cellId":"cell_label49"},"grid_field19":{"location":"grid","cellId":"cell_label66"},"grid_field3":{"location":"grid","cellId":"cell_label50"},"grid_field16":{"location":"grid","cellId":"cell_label71"},"grid_field17":{"location":"grid","cellId":"cell_label64"},"grid_field15":{"location":"grid","cellId":"cell_label69"},"grid_field13":{"location":"grid","cellId":"cell_label74"},"grid_field4":{"location":"grid","cellId":"cell_label51"},"grid_field8":{"location":"grid","cellId":"cell_label54"},"grid_field10":{"location":"grid","cellId":"cell_label75"},"grid_field9":{"location":"grid","cellId":"cell_label76"},"grid_field18":{"location":"grid","cellId":"cell_label78"},"grid_field14":{"location":"grid","cellId":"cell_label79"},"grid_field20":{"location":"grid","cellId":"cell_label80"},"grid_field21":{"location":"grid","cellId":"cell_label81"},"grid_field22":{"location":"grid","cellId":"cell_label82"},"grid_field23":{"location":"grid","cellId":"cell_label84"},"grid_field24":{"location":"grid","cellId":"cell_label86"},"text":{"location":"grid","cellId":"cell_label25"},"text1":{"location":"grid","cellId":"cell_label26"},"grid_field25":{"location":"grid","cellId":"cell_label26"},"grid_field26":{"location":"grid","cellId":"cell_label26"}},"itemVisiblity":{"list_options":3,"username_button":3,"loginform_login":3}},"helperItemsByType":{"search_panel":["search_panel"],"search_panel_field":["search_panel_field21"],"text":["text7","text1","text"],"grid_field_label":["simple_grid_field28","simple_grid_field16","simple_grid_field17","simple_grid_field29","simple_grid_field14","grid_field_label"],"grid_field":["simple_grid_field3","grid_field1","grid_field2","grid_field13","grid_field14","simple_grid_field1","simple_grid_field2","simple_grid_field15","simple_grid_field13","grid_field","grid_field5","grid_field6","grid_field7","grid_field8","grid_field3","grid_field4","grid_field15","grid_field16","grid_field9","grid_field10","grid_field11","grid_field12","grid_field17","grid_field18","grid_field19","grid_field20","grid_field21","grid_field22","grid_field23","grid_field24","grid_field25","grid_field26"],"logo":["logo"],"menu":["menu"],"list_options":["list_options"],"show_search_panel":["show_search_panel"],"hide_search_panel":["hide_search_panel"],"username_button":["username_button"],"adminarea_link":["adminarea_link"],"loginform_login":["loginform_login"],"logout_link":["logout_link"],"changepassword_link":["changepassword_link"]},"helperFieldItems":{"Celceliska":["simple_grid_field28","simple_grid_field13"],"StudentName":["simple_grid_field16","simple_grid_field2"],"MotherName":["simple_grid_field17","simple_grid_field3"],"Natiijada":["simple_grid_field29","simple_grid_field15"],"RollNumber":["simple_grid_field14","simple_grid_field1"],"Subject1":["grid_field1"],"Marks1":["grid_field2"],"Subject7":["grid_field13"],"Marks7":["grid_field14"],"SchoolName":["grid_field_label","grid_field"],"Subject4":["grid_field5"],"Marks4":["grid_field6"],"Subject3":["grid_field7"],"Marks3":["grid_field8"],"Subject2":["grid_field3"],"Marks2":["grid_field4"],"Subject8":["grid_field15"],"Marks8":["grid_field16"],"Marks5":["grid_field9"],"Subject5":["grid_field10"],"Subject6":["grid_field11"],"Marks6":["grid_field12"],"Subject9":["grid_field17"],"Subject10":["grid_field18"],"Marks9":["grid_field19"],"Marks10":["grid_field20"],"Subject11":["grid_field21"],"Marks11":["grid_field22"],"Subject12":["grid_field23"],"Marks12":["grid_field24"],"shuruudda1":["grid_field25"],"shuruudda2":["grid_field26"]},"buttons":[],"fieldItems":{"Celceliska":["simple_grid_field28","simple_grid_field13"],"StudentName":["simple_grid_field16","simple_grid_field2"],"MotherName":["simple_grid_field17","simple_grid_field3"],"Natiijada":["simple_grid_field29","simple_grid_field15"],"RollNumber":["simple_grid_field14","simple_grid_field1"],"Subject1":["grid_field1"],"Marks1":["grid_field2"],"Subject7":["grid_field13"],"Marks7":["grid_field14"],"SchoolName":["grid_field_label","grid_field"],"Subject4":["grid_field5"],"Marks4":["grid_field6"],"Subject3":["grid_field7"],"Marks3":["grid_field8"],"Subject2":["grid_field3"],"Marks2":["grid_field4"],"Subject8":["grid_field15"],"Marks8":["grid_field16"],"Marks5":["grid_field9"],"Subject5":["grid_field10"],"Subject6":["grid_field11"],"Marks6":["grid_field12"],"Subject9":["grid_field17"],"Subject10":["grid_field18"],"Marks9":["grid_field19"],"Marks10":["grid_field20"],"Subject11":["grid_field21"],"Marks11":["grid_field22"],"Subject12":["grid_field23"],"Marks12":["grid_field24"],"shuruudda1":["grid_field25"],"shuruudda2":["grid_field26"]},"renderedMediaType":0,"notifications":false,"mobileSub":false,"gridTabs":"","cellMaps":{"grid":{"cells":{"cell_top43":{"cols":[0,2,4],"rows":[],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[0,2,4]},"cell_label40":{"cols":[6],"rows":[],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[6]},"cell_top":{"cols":[0],"rows":[1],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[0]},"cell_top3":{"cols":[2],"rows":[1],"tags":["RollNumber_fieldheadercolumn"],"items":["simple_grid_field14"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[2]},"cell_top2":{"cols":[4],"rows":[1],"tags":["RollNumber_fieldcolumn"],"items":["simple_grid_field1"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[4]},"cell_top4":{"cols":[],"rows":[1],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[]},"cell_label41":{"cols":[6],"rows":[1],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[6]},"cell_top17":{"cols":[0],"rows":[2],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[0]},"cell_top20":{"cols":[2],"rows":[2],"tags":["StudentName_fieldheadercolumn"],"items":["simple_grid_field16"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[2]},"cell_top18":{"cols":[4],"rows":[2],"tags":["StudentName_fieldcolumn"],"items":["simple_grid_field2"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[4]},"cell_top19":{"cols":[],"rows":[2],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[]},"cell_label42":{"cols":[6],"rows":[2],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[6]},"cell_top41":{"cols":[0],"rows":[3],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[0]},"cell_top42":{"cols":[2],"rows":[3],"tags":["MotherName_fieldheadercolumn"],"items":["simple_grid_field17"],"fixedAtServer":false,"fixedAtClient":false,"hidable":true,"visibleCols":[2]},"cell_top44":{"cols":[4],"rows":[3],"tags":["MotherName_fieldcolumn"],"items":["simple_grid_field3"],"fixedAtServer":false,"fixedAtClient":false,"hidable":true,"visibleCols":[4]},"cell_top45":{"cols":[],"rows":[3],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[]},"cell_label43":{"cols":[6],"rows":[3],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[6]},"cell_top46":{"cols":[0],"rows":[4],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[0]},"cell_top47":{"cols":[2],"rows":[4],"tags":["SchoolName_fieldheadercolumn"],"items":["grid_field_label"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[2]},"cell_top48":{"cols":[4],"rows":[4],"tags":["SchoolName_fieldcolumn"],"items":["grid_field"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[4]},"cell_top49":{"cols":[],"rows":[4],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[]},"cell_top50":{"cols":[6],"rows":[4],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[6]},"cell_top24":{"cols":[0],"rows":[5],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[0]},"cell_top27":{"cols":[2],"rows":[5],"tags":["Celceliska_fieldheadercolumn"],"items":["simple_grid_field28"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[2]},"cell_top31":{"cols":[4],"rows":[5],"tags":["Celceliska_fieldcolumn"],"items":["simple_grid_field13"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[4]},"cell_top32":{"cols":[],"rows":[5],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[]},"cell_label44":{"cols":[6],"rows":[5],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[6]},"cell_top22":{"cols":[0],"rows":[6],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[0]},"cell_top23":{"cols":[2],"rows":[6],"tags":["Natiijada_fieldheadercolumn"],"items":["simple_grid_field29"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[2]},"cell_top25":{"cols":[4],"rows":[6],"tags":["Natiijada_fieldcolumn"],"items":["simple_grid_field15"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[4]},"cell_top26":{"cols":[],"rows":[6],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[]},"cell_label45":{"cols":[6],"rows":[6],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[6]},"cell_label20":{"cols":[0,2],"rows":[],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[0,2]},"cell_label":{"cols":[4],"rows":[],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[4]},"cell_label46":{"cols":[6],"rows":[],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[6]},"cell_label35":{"cols":[0],"rows":[8],"tags":["Subject1_fieldcolumn"],"items":["grid_field1"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[0]},"cell_label38":{"cols":[2],"rows":[8],"tags":["Marks1_fieldcolumn"],"items":["grid_field2"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[2]},"cell_label36":{"cols":[4],"rows":[8],"tags":["Subject6_fieldcolumn"],"items":["grid_field11"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[4]},"cell_label37":{"cols":[6],"rows":[8],"tags":["Marks6_fieldcolumn"],"items":["grid_field12"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[6]},"cell_label50":{"cols":[0],"rows":[9],"tags":["Subject2_fieldcolumn"],"items":["grid_field3"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[0]},"cell_label51":{"cols":[2],"rows":[9],"tags":["Marks2_fieldcolumn"],"items":["grid_field4"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[2]},"cell_label74":{"cols":[4],"rows":[9],"tags":["Subject7_fieldcolumn"],"items":["grid_field13"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[4]},"cell_label79":{"cols":[6],"rows":[9],"tags":["Marks7_fieldcolumn"],"items":["grid_field14"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[6]},"cell_label49":{"cols":[0],"rows":[10],"tags":["Subject3_fieldcolumn"],"items":["grid_field7"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[0]},"cell_label54":{"cols":[2],"rows":[10],"tags":["Marks3_fieldcolumn"],"items":["grid_field8"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[2]},"cell_label69":{"cols":[4],"rows":[10],"tags":["Subject8_fieldcolumn"],"items":["grid_field15"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[4]},"cell_label71":{"cols":[6],"rows":[10],"tags":["Marks8_fieldcolumn"],"items":["grid_field16"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[6]},"cell_label48":{"cols":[0],"rows":[11],"tags":["Subject4_fieldcolumn"],"items":["grid_field5"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[0]},"cell_label55":{"cols":[2],"rows":[11],"tags":["Marks4_fieldcolumn"],"items":["grid_field6"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[2]},"cell_label64":{"cols":[4],"rows":[11],"tags":["Subject9_fieldcolumn"],"items":["grid_field17"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[4]},"cell_label66":{"cols":[6],"rows":[11],"tags":["Marks9_fieldcolumn"],"items":["grid_field19"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[6]},"cell_label75":{"cols":[0],"rows":[12],"tags":["Subject5_fieldcolumn"],"items":["grid_field10"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[0]},"cell_label76":{"cols":[2],"rows":[12],"tags":["Marks5_fieldcolumn"],"items":["grid_field9"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[2]},"cell_label78":{"cols":[4],"rows":[12],"tags":["Subject10_fieldcolumn"],"items":["grid_field18"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[4]},"cell_label80":{"cols":[6],"rows":[12],"tags":["Marks10_fieldcolumn"],"items":["grid_field20"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[6]},"cell_label81":{"cols":[0],"rows":[13],"tags":["Subject11_fieldcolumn"],"items":["grid_field21"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[4],"visibleCols":[0]},"cell_label82":{"cols":[2],"rows":[13],"tags":["Marks11_fieldcolumn"],"items":["grid_field22"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[4],"visibleCols":[2]},"cell_label84":{"cols":[4],"rows":[13],"tags":["Subject12_fieldcolumn"],"items":["grid_field23"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[4],"visibleCols":[4]},"cell_label86":{"cols":[6],"rows":[13],"tags":["Marks12_fieldcolumn"],"items":["grid_field24"],"fixedAtServer":false,"fixedAtClient":false,"hiddenRecords":[4],"visibleCols":[6]},"cell_label24":{"cols":[0,2,4,6],"rows":[],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[0,2,4,6]},"cell_label27":{"cols":[0,2,4,6],"rows":[],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[0,2,4,6]},"cell_label26":{"cols":[0,2,4,6],"rows":[16],"tags":[],"items":["text1","grid_field25","grid_field26"],"fixedAtServer":true,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[0,2,4,6]},"cell_label25":{"cols":[0,2,4,6],"rows":[17],"tags":[],"items":["text"],"fixedAtServer":true,"fixedAtClient":false,"hiddenRecords":[],"visibleCols":[0,2,4,6]},"cell_top1":{"cols":[0,2,4],"rows":[],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[0,2,4]},"cell_label52":{"cols":[6],"rows":[],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[6]},"cell_dpreview":{"cols":[0,2,4],"rows":[],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[0,2,4]},"cell_label53":{"cols":[6],"rows":[],"tags":[],"items":[],"fixedAtServer":false,"fixedAtClient":false,"removable":true,"hidable":true,"visibleCols":[6]}},"width":7,"height":20}}}} );
+			</script>
+<script language="JavaScript" src="include/runnerJS/RunnerAll.js?41619"></script>
+<script>Runner.util.ScriptLoader.addJS(['include/runnerJS/events/pageevents_natiijada_ardayga.js']);
+ Runner.util.ScriptLoader.load();</script>
+	</body>
+</html>

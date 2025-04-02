@@ -3,7 +3,7 @@ import { Loader2 } from "lucide-react";
 
 interface Subject {
   subject: string;
-  mark: number;
+  mark: number|string;
 }
 
 interface StudentConfirmationProps {
@@ -46,7 +46,8 @@ export function StudentConfirmation({
               >
                 <div className="text-sm text-gray-400">{subject.subject}</div>
                 <div className="text-lg font-semibold text-white">
-                  {subject.mark}%
+                  { subject.mark} 
+                  {typeof subject.mark=='number'&&'%'} 
                 </div>
               </div>
             ))}

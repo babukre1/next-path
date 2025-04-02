@@ -13,10 +13,11 @@ import { clearMemory, gemeni } from "../actions/gemini";
 interface StudentResult {
   rollNumber: string;
   studentName: string;
-  subjects: Array<{ subject: string; mark: number }>;
-  totalPercentage: number;
+  subjects: Array<{ subject: string; mark: number | string }>;
+  totalPercentage: number | string;
   finalStatus: string;
 }
+
 
 interface WaitlistFormProps {
   onStateChange: (state: "initial" | "confirmation" | "questions") => void;
@@ -194,13 +195,39 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
             </form>
 
             {error && (
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                className="text-red-500 text-sm mt-2"
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="mt-4 p-4 rounded-xl bg-red-500/10 border border-red-500/20 backdrop-blur-sm"
               >
-                {error}
-              </motion.p>
+                <div className="flex items-center space-x-3">
+                  <svg
+                    className="w-5 h-5 text-red-500"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <p className="text-red-500 text-sm">
+                    {error === "Student not found"
+                      ? "No student found with this roll number. Please check and try again."
+                      : error}
+                  </p>
+                </div>
+                {error === "Student not found" && (
+                  <p className="text-red-400/80 text-xs mt-2">
+                    Make sure you entered the correct roll number. If you're
+                    still having issues, please try again later.
+                  </p>
+                )}
+              </motion.div>
             )}
           </motion.div>
         )}
