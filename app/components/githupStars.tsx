@@ -103,7 +103,7 @@ export function GitHubStars() {
       <div className="flex -space-x-2 mr-4">
         {stargazers.length > 0 ? (
           stargazers
-            .slice(0, 3)
+            .slice(-3)
             .map((user, index) => (
               <Avatar
                 key={user.login}
@@ -126,13 +126,15 @@ export function GitHubStars() {
         <p
           className={cn(
             "font-medium bg-clip-text text-transparent bg-gradient-to-r",
-            starCount > 0 ? "from-yellow-200 to-yellow-400" : "from-gray-200 to-gray-400",
+            starCount > 0
+              ? "from-yellow-200 to-yellow-400"
+              : "from-gray-200 to-gray-400"
           )}
         >
           {starCount} {starCount === 1 ? "star" : "stars"} on GitHub
         </p>
       </button>
     </div>
-  )
+  );
 }
 

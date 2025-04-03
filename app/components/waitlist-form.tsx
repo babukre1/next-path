@@ -115,7 +115,7 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
     setError("");
 
     try {
-      const response = await gemeni(result.subjects, undefined);
+      const response = await gemeni(rollNumber,result.subjects, undefined);
       const cleanedResponse = cleanAIResponse(response);
       const parsedResponse = JSON.parse(cleanedResponse);
       const normalizedResponse = normalizeAIResponse(parsedResponse);
@@ -139,7 +139,7 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
   const handleAnswer = async (value: number) => {
     setIsProcessingAnswer(true);
     try {
-      const response = await gemeni(undefined, `option ${value}`);
+      const response = await gemeni(rollNumber,undefined, `option ${value}`);
       const cleanedResponse = cleanAIResponse(response);
       console.log("Cleaned response:", cleanedResponse);
       const parsedResponse = JSON.parse(cleanedResponse);

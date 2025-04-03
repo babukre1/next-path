@@ -1,7 +1,10 @@
 "use client"
 
+import { useEffect } from "react"
 import { WaitlistSignup } from "./components/waitlist-signup"
 import { Toaster } from "@/components/ui/toaster"
+import { clearMemory } from "./actions/gemini"
+
 
 const backgroundStyle = `
   .bg-pattern {
@@ -26,6 +29,9 @@ const backgroundStyle = `
 //21930985
 
 export default function Home() {
+  useEffect(()=>{
+    clearMemory();
+  },[])
   return (
     <main
       className="min-h-screen flex items-center justify-center"

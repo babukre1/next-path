@@ -1,8 +1,22 @@
 "use server";
+
+import { json } from "stream/consumers";
+
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 // const ai = new GoogleGenAI({ apiKey:process.env.GEMENI_API_Key });
+interface History {
+  role: string;
+  parts: { text: string }[];
+}
 
-var history: any[] = [];
+type HistoryEntry = History[];
+
+type HistoryStore = {
+  [key: string]: HistoryEntry;
+};
+
+// Use a Map for better performance and type safety
+const historyStore = new Map<string, HistoryEntry>();
 
 const systemPrompt = `You are an AI career guidance counselor helping high school graduates choose their college major and career path. Your role is to:
 1. Analyze student's academic performance and interests
@@ -17,14 +31,14 @@ Guidelines:
 wich are 
 ............
 Mathematics
-Physics   
+Physics   
 Chemistry
 Biology
-Somali   
+Somali   
 Arabic
-Islamic Studies   
+Islamic Studies   
 English
-Geography   
+Geography   
 History
 
 - and first ask user wich wase most loved while you buttin the subjects in the anser list and ask question what he love mostely 
@@ -96,62 +110,60 @@ const generationConfig = {
   maxOutputTokens: 8192,
   responseMimeType: "text/plain",
 };
-export async function gemeni(examResult?: any, usersAnswer?: any) {
+export async function gemeni(
+  rollnumber: string,
+  examResult?: any,
+  usersAnswer?: any
+) {
+  console.log("rollnumber", rollnumber);
+  console.log("examResult", examResult);
+
   if (!process.env.GEMINI_API_KEY) {
     throw new Error("GEMINI_API_KEY is not set in environment variables");
   }
 
-  if (history.length <= 0) {
-    history = [
+  // Initialize or get existing history
+  if (!historyStore.has(rollnumber)) {
+    // Only add system prompt once at the beginning
+    historyStore.set(rollnumber, [
       {
         role: "user",
-        parts: [{ text: `${systemPrompt + 'this is the score of the user during his high school '+ examResult} \n` }],
+        parts: [
+          {
+            text: `${systemPrompt}${examResult ? "this is the score of the user during his high school " + examResult : ""}`,
+          },
+        ],
       },
-    ];
-  } else {
-    history.push({
+    ]);
+  } else if (usersAnswer) {
+    // Only add the user's answer, not the system prompt
+    const currentHistory = historyStore.get(rollnumber)!;
+    currentHistory.push({
       role: "user",
-      parts: [{ text: `${usersAnswer} \n` }],
+      parts: [{ text: usersAnswer }],
     });
   }
 
   try {
     const chatSession = model.startChat({
       generationConfig,
-      history: history,
+      history: historyStore.get(rollnumber)!,
     });
 
-    const response = await chatSession.sendMessage(usersAnswer ?? systemPrompt);
+    const response = await chatSession.sendMessage(usersAnswer ?? "");
 
-    if (!response || !response.response) {
-      throw new Error("Invalid response from Gemini API");
+    if (!response?.response?.text()) {
+      throw new Error("Invalid or empty response from Gemini API");
     }
 
-    const responseText = response.response.text();
-
-    if (!responseText) {
-      throw new Error("Empty response from Gemini API");
-    }
-
-    // Try to parse the response as JSON to validate format
-    // try {
-    //   console.log(responseText);
-    //   JSON.parse(responseText);
-    // } catch (e) {
-    //   console.log(e)
-    //   throw new Error("Response is not in valid JSON format");
-    // }
-    console.log(responseText)
-
-    return responseText;
+    return response.response.text();
   } catch (e: any) {
     console.error("Gemini API Error:", e);
     throw new Error(`Failed to get AI response: ${e.message}`);
   }
 }
 
-
-export  const clearMemory=async()=>{
-  history = [];
-  console.log("Memory cleared");	
-}
+export const clearMemory = async () => {
+  historyStore.clear();
+  console.log("Memory cleared");
+};
