@@ -79,6 +79,10 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
       setError("Roll Number is required");
       return;
     }
+    if (rollNumber.length<8) {
+      setError("Roll Number is not valid in length");
+      return;
+    }
     setLoading(true);
     setError("");
 
