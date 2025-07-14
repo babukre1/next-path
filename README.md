@@ -30,7 +30,7 @@ A modern web application that helps high school graduates discover their perfect
 
 If you don't have pnpm installed, you can install it using one of these methods:
 
-```bash
+````bash
 # Using npm
 npm install -g pnpm
 
@@ -41,14 +41,16 @@ npm install -g pnpm
 ```bash
 git clone https://github.com/yourusername/career-guidance-ai.git
 cd career-guidance-ai
-```
+````
 
 2. Install dependencies using pnpm:
+
 ```bash
 pnpm install
 ```
 
 4. Run the development server:
+
 ```bash
 pnpm dev
 ```
@@ -58,16 +60,17 @@ pnpm dev
 ## 📱 Features in Detail
 
 ### 1. Student Information Input
+
 - Roll number verification
 - Academic performance analysis
 - Secure data handling
 
 ### 2. Career Recommendations
+
 - Program suggestions with match scores
 - Required subjects and prerequisites
 - Career path possibilities
 - Next steps and action items
-
 
 ## 🎨 UI Components
 
@@ -79,4 +82,4 @@ pnpm dev
 
 ---
 
-Made with ❤️ by mti inistitude
+Made with ❤️ by Abubakr (Babukre)
