@@ -1,9 +1,6 @@
 "use server";
 
-import { json } from "stream/consumers";
-
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-// const ai = new GoogleGenAI({ apiKey:process.env.GEMENI_API_Key });
 interface History {
   role: string;
   parts: { text: string }[];
@@ -11,9 +8,9 @@ interface History {
 
 type HistoryEntry = History[];
 
-type HistoryStore = {
-  [key: string]: HistoryEntry;
-};
+// type HistoryStore = {
+//   [key: string]: HistoryEntry;
+// };
 
 // Use a Map for better performance and type safety
 const historyStore = new Map<string, HistoryEntry>();
@@ -103,6 +100,7 @@ only return json nothing else ok formated data only nothing else json
 `;
 const genAi = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 const model = genAi.getGenerativeModel({ model: "gemini-2.0-flash" });
+
 const generationConfig = {
   temperature: 1,
   topP: 0.95,
@@ -110,6 +108,7 @@ const generationConfig = {
   maxOutputTokens: 8192,
   responseMimeType: "text/plain",
 };
+
 export async function gemeni(
   rollnumber: string,
   examResult?: any,
@@ -130,7 +129,12 @@ export async function gemeni(
         role: "user",
         parts: [
           {
-            text: `${systemPrompt}${examResult ? "this is the score of the user during his high school " + examResult : ""}`,
+            text: `${systemPrompt}${
+              examResult
+                ? "this is the score of the user during his high school " +
+                  examResult
+                : ""
+            }`,
           },
         ],
       },
@@ -145,10 +149,16 @@ export async function gemeni(
   }
 
   try {
+    // Start and initialize a chat session with the existing history
     const chatSession = model.startChat({
       generationConfig,
       history: historyStore.get(rollnumber)!,
     });
+
+    console.log(
+      "Chat session started with history:",
+      historyStore.get(rollnumber)
+    );
 
     const response = await chatSession.sendMessage(usersAnswer ?? "");
 

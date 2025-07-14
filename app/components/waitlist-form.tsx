@@ -123,6 +123,7 @@ function WaitlistForm({ onStateChange }: WaitlistFormProps) {
       const cleanedResponse = cleanAIResponse(response);
       const parsedResponse = JSON.parse(cleanedResponse);
       const normalizedResponse = normalizeAIResponse(parsedResponse);
+      console.log("Normalized AI Response:", normalizedResponse);
       setAiResponse(normalizedResponse);
       setShowQuestions(true);
       onStateChange("questions");
